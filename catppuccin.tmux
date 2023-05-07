@@ -70,7 +70,7 @@ main() {
   readonly right_separator
   
   local left_separator
-  left_separator="$(get_tmux_option "@catppuccin_left_separator" "")"
+  left_separator="$(get_tmux_option "@catppuccin_left_separator" "A")"
   readonly left_separator
 
   local user
